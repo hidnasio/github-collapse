@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.github.com/*"
+        "https://github.com/*/pull/*/files"
       ],
       "js": [
         "collapse.js"
